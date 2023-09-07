@@ -12,7 +12,7 @@ const createContainerFilesystem = (path: string) => {
   // mkdir /$path
 }
 
-const containerLogs = (namespace: string){
+const containerLogs = (namespace: string) => {
   // nsenter --target $namespace --mount --uts --ipc --net --pid cat /var/log/container.log
 }
 
